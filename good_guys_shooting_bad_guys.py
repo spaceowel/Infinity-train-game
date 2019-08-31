@@ -95,5 +95,4 @@ while(True):
 		score.clear()
 		score.write(points, False, "center", ("Arial", 20, 'normal'))
 	if enemy.ycor() == player.ycor():
-                enemy.sety(150)
-		points = 0;
+                break
